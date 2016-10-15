@@ -24,11 +24,14 @@
     "lodash": "^4.15.0",
     "mongoose": "^4.5.9",
     "morgan": "^1.7.0",
+    "node-gyp": "^3.4.0",
     "nodemon": "^1.11.0",
     "regex": "^0.1.1",
     "sax": "^1.2.1",
     "xml-parser": "^1.2.1",
-    "xmldom": "^0.1.22"
+    "xml2json": "^0.10.0",
+    "xmldom": "^0.1.22",
+    "xpath": "0.0.23"
   },
   "devDependencies": {
     "eslint": "^3.2.2",
