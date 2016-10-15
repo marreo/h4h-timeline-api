@@ -1,0 +1,15 @@
+{
+    "data": [
+        {"address": "Götgatan 1", "year": "1900", "image" : "/"},
+        {"address": "Götgatan 1", "year": "1901", "image" : "/"},
+        {"address": "Götgatan 2", "year": "1900", "image" : "/"},
+        {"address": "Götgatan 2", "year": "1901", "image" : "/"},
+        {"address": "Götgatan 3", "year": "1900", "image" : "/"},
+        {"address": "Götgatan 3", "year": "1901", "image" : "/"},
+        {"address": "Götgatan 3", "year": "1902", "image" : "/"},
+        {"address": "Götgatan 4", "year": "1900", "image" : "/"},
+        {"address": "Götgatan 4", "year": "1901", "image" : "/"},
+        {"address": "Götgatan 4", "year": "1902", "image" : "/"},
+        {"address": "Götgatan 4", "year": "1903", "image" : "/"}
+    ]
+}

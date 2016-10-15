@@ -8,7 +8,7 @@ const pet  = require('./model/pet/pet-router');
 
 router.route('/api').get((req, res) => {
     
-    var obj = JSON.parse(fs.readFileSync('data.json', 'utf8'));
+    var obj = JSON.parse(fs.readFileSync('data/data.json', 'utf8'));
     
     var name = req.param("n");
     var address = req.param("a");
