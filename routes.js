@@ -6,9 +6,14 @@ const user  = require('./model/user/user-router');
 const pet  = require('./model/pet/pet-router');
 
 
-router.route('/').get((req, res) => {
+router.route('/api').get((req, res) => {
     
     var obj = JSON.parse(fs.readFileSync('data.json', 'utf8'));
+    
+    var name = req.param("n");
+    var address = req.param("a");
+    
+    console.log("Params: n >" + name + " a " + address);
     
   res.json(obj);
 });
