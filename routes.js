@@ -15,7 +15,7 @@ router.route('/api').get((req, res) => {
     
     console.log("Params: n >" + name + " a " + address);
     
-  res.json(obj);
+  res.jsonp(obj);
 });
 
 router.use('/user', user);
